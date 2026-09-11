@@ -25,3 +25,4 @@ function temaclaro(){
     document.body.classList.remove("black");
      document.body.classList.add("white");
 }
+
