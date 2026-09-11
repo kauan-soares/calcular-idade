@@ -11,14 +11,22 @@
         <h1>Calcular Idade</h1>
         <p>Digite os dados solicitados</p>
     </header>
+    <main>
+        <div class="botoes-tema">
+        <button class="claro" id="claro" onclick="temaclaro()">Claro</button>
+        <button class="escuro" id="escuro" onclick="temaescuro()">Escuro</button>
+    </div>
     <div class="dados">
-        <h3>Data de nascimento</h3>
+        <h3>Informe o nome da pessoa</h3>
+        <input type="text" id="nome" placeholder="Digite aqui">
+        <h3>Informe a data de nascimento</h3>
         <input type="date" id="dataNascimento">
         <br>
-        <button id="calcular" onclick="calcularIdade()">Calcular</button>
+        <button class="calcular" id="calcular" onclick="calcularIdade()">Calcular</button>
         <h3>Resultado</h3>
         <input type="text" id="resultado" readonly>
     </div>
+    </main>
     <footer>
         <p>Desenvolvido por Kauan</p>
     </footer>
