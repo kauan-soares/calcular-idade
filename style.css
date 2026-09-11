@@ -1,7 +1,5 @@
 *{
     text-align: center;
-}
-body{
     font-family: Arial, sans-serif;
 }
 
@@ -9,6 +7,7 @@ body.white{
     background-color: #f4f6f6;
     font-family: Arial, sans-serif;
 }
+
 body.black{
     background-color: black;
     font-family: Arial, sans-serif;
@@ -17,13 +16,26 @@ body.black{
 
 header{
     text-align: center;
-    background-color: #f2f2f2;
+    background-color: #E5E7EB;
     padding: 20px;
-    width: 400px;
-    height: 100px;
+    max-width: 400px;
+    width: 90%;
     margin: 0 auto;
     margin-top: 12px;
     margin-bottom: 12px;
+    color:rgb(68, 68, 68);
+    border-radius: 20px;
+}
+
+main{
+    text-align: center;
+    background-color: #E5E7EB;
+    padding: 20px;
+    max-width: 400px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 15px;
     color:rgb(68, 68, 68);
     border-radius: 20px;
 }
@@ -36,9 +48,11 @@ input{
     border: 1px solid #ccc;
     padding: 5px;
     margin-bottom: 10px;
-}button{
+}
+
+button{
     text-align: center;
-    background-color: #346e36;
+    background-color: #2563EB;
     color: white;
     width: 100px;
     height: 40px;
@@ -52,13 +66,14 @@ input{
 }
 
 .calcular:hover{
-    background-color: #17eb17;
+    background-color: #091746;
     cursor: pointer;
     transform: scale(1.1); 
 }
 
 .operador{
-font-size: 30px;}
+font-size: 30px;
+}
 
 .claro{
   background-color: rgb(224, 183, 35);
