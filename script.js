@@ -1,6 +1,7 @@
 function calcularIdade() {
-    var dataNascimento = window.document.getElementById("dataNascimento").value
+    var dataNascimento = window.document.getElementById("dataNascimento").value;
     var resultado = window.document.getElementById("resultado") 
+    var pessoa = window.document.getElementById("nome").value;
 
     var dtn = new Date(dataNascimento)
     var hoje = new Date()
@@ -11,6 +12,16 @@ function calcularIdade() {
                      ) /365.25
             )
 
-            resultado.value = "A idade é " + idade + " ano(s)"
+            resultado.value = pessoa + " tem "  + idade + " ano(s)";
 
+}
+
+function temaescuro(){
+    document.body.classList.remove("white");
+    document.body.classList.add("black");
+}
+
+function temaclaro(){
+    document.body.classList.remove("black");
+     document.body.classList.add("white");
 }
